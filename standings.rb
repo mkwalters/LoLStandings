@@ -8,3 +8,5 @@ doc = Nokogiri::HTML(open("http://www.gosugamers.net/lol/rankings"))
 for i in 1...100
 	puts doc.css("span span")[i].text
 end
+
+#Hello brother!
